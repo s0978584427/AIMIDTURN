@@ -28,7 +28,6 @@ drive.mount("/content/drive")
 
 打開此 Notebook：
 
-
 執行前兩個測試區塊：
 
 步驟1:
@@ -61,7 +60,7 @@ drive.mount("/content/drive")
 
 修改完後點擊保存即可。
 
-2. 安裝必要的包和軟件
+2.安裝必要的包和軟件
 
 在代碼段中輸入以下代碼：
 
@@ -69,7 +68,7 @@ drive.mount("/content/drive")
 
 運行代碼，運行中會提示輸入驗證碼，點擊程序給出的網址進行驗證即可。
 
-3. 掛載Google Drive
+3.掛載Google Drive
 
 其實完成前面的操作我們就可以在Google Colab中敲寫代碼或者輸入一些系統命令了，但是我們現在連接的虛擬機是和Google Drive脫離的，也就是說
 
@@ -84,6 +83,16 @@ drive.mount("/content/drive")
 運行掛載Google Drive代碼會出現應認證的鏈接
 
 ![image](5.jpg)
+
+裝載Google Drive，點擊鏈接獲得應用認證碼
+
+應用認證碼，將應用認證碼覆制輸入到下面的文本框中，點擊回車鍵即可
+
+加載成功之後在左邊的文件中多了一個dirve文件夾
+
+![image](6.jpg)
+
+加載成功
 
 若需掛載 Google Drive，使用以下正確方法：
 
