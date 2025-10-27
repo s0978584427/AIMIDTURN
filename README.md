@@ -57,9 +57,9 @@ drive.mount("/content/drive")
    
 每新建一個Colab項目，都需要先對筆記本環境進行配置，運行類型選擇是Python2還是Python3，硬件類型選擇CPU、GPU或者TPU。
 
-（其中Python2是2.7版本，Python3是3.6版本）
+(其中Python2是2.7版本，Python3是3.6版本）
 
- 修改完後點擊保存即可。
+修改完後點擊保存即可。
 
 2. 安裝必要的包和軟件
 
@@ -67,15 +67,24 @@ drive.mount("/content/drive")
 
 ![image](3.jpg)
 
+運行代碼，運行中會提示輸入驗證碼，點擊程序給出的網址進行驗證即可。
 
+3. 掛載Google Drive
 
+其實完成前面的操作我們就可以在Google Colab中敲寫代碼或者輸入一些系統命令了，但是我們現在連接的虛擬機是和Google Drive脫離的，也就是說
 
+我們跑的程序無法使用谷歌雲盤里的文件，這就非常受限制了。所以我們一般需要將谷歌雲盤看作是虛擬機中的一個硬盤掛載，這樣我們就可以使用虛擬
 
+機輕松訪問谷歌雲盤。
 
+掛載Google Drive代碼：
 
+![image](4.jpg)
 
+運行掛載Google Drive代碼會出現應認證的鏈接
 
- 
+![image](5.jpg)
+
 若需掛載 Google Drive，使用以下正確方法：
 
 from google.colab import drive
