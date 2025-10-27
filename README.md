@@ -51,8 +51,31 @@ drive.mount("/content/drive")
 
 端的那台Ubuntu虛擬機。你可以用它來直接跑代碼，也可以使用一些系統命令（我們後面要安裝第三方軟件都需要借助一系列的系統命令）。
 
+前期配置
+
+1.修改筆記本環境
+   
+每新建一個Colab項目，都需要先對筆記本環境進行配置，運行類型選擇是Python2還是Python3，硬件類型選擇CPU、GPU或者TPU。
+
+（其中Python2是2.7版本，Python3是3.6版本）
+
+ 修改完後點擊保存即可。
+
+2. 安裝必要的包和軟件
+
+在代碼段中輸入以下代碼：
+
+![image](3.jpg)
 
 
+
+
+
+
+
+
+
+ 
 若需掛載 Google Drive，使用以下正確方法：
 
 from google.colab import drive
