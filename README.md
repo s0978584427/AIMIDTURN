@@ -34,6 +34,7 @@ drive.mount("/content/drive")
 步驟1:
 添加代碼塊
 我們就可以在代碼框中輸入一些代碼，如果我們直接輸入代碼，系統會當作是Python代碼執行。例如我們輸入：
+![image](1.jpg)
 
 
 若需掛載 Google Drive，使用以下正確方法：
