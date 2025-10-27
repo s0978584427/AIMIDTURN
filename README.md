@@ -4,6 +4,8 @@
 
 環境測試與初始設定
 
+<img src="images/Screenshot 2025-10-27 162655.png" alt="執行成功截圖" width="700" height="auto" />
+
 建立簡單的變數與輸出（a = 1）。
 
 使用 !ls 查看當前 Colab 目錄內容。
