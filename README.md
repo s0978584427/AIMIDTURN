@@ -3,7 +3,7 @@
 此 Notebook 主要包含以下部分：
 
 環境測試與初始設定
-https://github.com/s0978584427/AIMIDTURN/blob/de2ddb962a6c2d368e3f61a8f41989247e14886a/Screenshot%202025-10-27%20162655.png
+Screenshot 2025-10-27 162655.png
 建立簡單的變數與輸出（a = 1）。
 
 使用 !ls 查看當前 Colab 目錄內容。
